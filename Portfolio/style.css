@@ -1,0 +1,170 @@
+/* ===== GLOBAL ===== */
+
+body {
+    background-color: #0f172a;
+    color: #f1f5f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-top: 70px;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+    padding: 15px 0;
+    background-color: #0f172a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 999;
+}
+
+.navbar .nav-link {
+    color: #f1f5f9;
+}
+
+.navbar .nav-link:hover {
+    color: #38bdf8;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+    min-height: 85vh;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+}
+
+.tech-stack {
+    color: #38bdf8;
+    font-weight: 500;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-outline-light:hover {
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+
+/* ===== PROFILE IMAGE ===== */
+
+.image-wrapper {
+    display: inline-block;
+}
+
+.profile-img {
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+.scroll-indicator {
+    opacity: 0.6;
+    font-size: 0.9rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+/* ===== SECTIONS ===== */
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* Alternate dark section */
+.bg-dark-alt {
+    background-color: #111827;
+}
+
+/* Project Card */
+.project-card {
+    background-color: #1f2937;
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.project-card h4 {
+    margin-bottom: 15px;
+}
+
+.project-tech {
+    color: #38bdf8;
+    font-size: 0.9rem;
+}
+/* ===== EXPERIENCE SECTION ===== */
+
+.experience-card {
+    background-color: #1f2937;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.experience-card h4 {
+    margin-bottom: 5px;
+}
+
+.experience-card ul {
+    padding-left: 20px;
+}
+
+.experience-card li {
+    margin-bottom: 10px;
+}
+/* ===== CONTACT ===== */
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.contact-item:hover {
+    color: #ffffff;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    padding: 20px 0;
+    background-color: #0f172a;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
